@@ -1,19 +1,8 @@
-﻿namespace SortListAsc
-{
-    public class ListNode {
-          public int val;
-          public ListNode next;
-          public ListNode(int val=0, ListNode next=null) 
-          {
-              this.val = val;
-              this.next = next;
-          }
-      }
-     
+﻿using Common;
 
-    // Split this list into halves list until there is only 1 node left
-    // then sort them. should be O(nlogn)
-    public class Solution
+// Split this list into halves list until there is only 1 node left
+// then sort them. should be O(nlogn)
+public class Solution
     {
         public ListNode SortList(ListNode head)
         {
@@ -87,4 +76,3 @@
             return fakeHead.next;
         }
     }
-}
