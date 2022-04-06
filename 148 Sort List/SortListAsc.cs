@@ -1,13 +1,11 @@
 ﻿using Common;
 
 // Split this list into halves list until there is only 1 node left
-// then sort them. should be O(nlogn)
+// then sort them and merge. Continue sorting and merging from left to right until we run get a fully sorted list.
 public class Solution
     {
         public ListNode SortList(ListNode head)
         {
-            /* Splitting phase */
-
             // Point where we need to stop splitting the list in halves. 
             if (head == null || head.next == null)
             {
@@ -21,25 +19,24 @@ public class Solution
             var left = SortList(head);
             var right = SortList(middleNode);
 
-            /* Sorting / merging phase */
             return Merge(left, right);
         }
 
         ListNode GetMiddleNode(ListNode node)
         {
             // Let's declare the node before the actual middle of the list
-            ListNode exMidNode = null;
+            ListNode preMidNode = null;
 
             // keep going through the list until we either skip into or over the last node.
             while (node != null && node.next != null)
             {
-                exMidNode = exMidNode == null ? node : exMidNode.next;
+                preMidNode = preMidNode == null ? node : preMidNode.next;
                 node = node.next.next;
             }
 
             // To get the actual middle of the list we take the next node and to ensure we actually split the list we set the reference of the (Mid-1).next node to null.
-            var middleNode = exMidNode.next;
-            exMidNode.next = null;
+            var middleNode = preMidNode.next;
+            preMidNode.next = null;
 
             return middleNode;
         }
@@ -69,7 +66,6 @@ public class Solution
                     current = current.next;
                 }
             }
-
 
             current.next = l1 ?? l2;
 
