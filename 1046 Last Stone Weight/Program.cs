@@ -1,0 +1,1 @@
+﻿int test = new Solution().LastStoneWeight(new int[] { 2, 7, 4, 1, 8, 1 });
