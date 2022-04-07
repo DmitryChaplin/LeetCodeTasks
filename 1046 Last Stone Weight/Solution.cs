@@ -2,24 +2,31 @@
 {
     public int LastStoneWeight(int[] stones)
     {
-        var current = new List<int>(stones);
-        while (current.Count > 1)
+        if (stones.Length == 1)
+            return stones[0];
+
+        Array.Sort(stones);
+        var s1 = stones.Length - 1;
+        var s2 = stones.Length - 2;
+        
+        while (s1 >= 0)
         {
-            current.Sort();
-            var stone1Index = current.Count - 1;
-            var stone2Index = current.Count - 2;
-            var smashResult = current[stone1Index] - current[stone2Index];
-            if (smashResult == 0)
+            if (stones[s1] == stones[s2])
             {
-                current.RemoveRange(stone2Index, 2);
+                stones[s1] = 0;
+                stones[s2] = 0;
             }
             else
             {
-                current.RemoveAt(stone1Index);
-                current[stone2Index] = smashResult;
+                stones[s2] = stones[s1] - stones[s2];
+                stones[s1] = 0;
             }
+            Array.Sort(stones);
+
+            if (stones[s2] == 0)
+                break;
         }
 
-        return current.FirstOrDefault(0);
+        return stones[s1];
     }
 }
