@@ -6,7 +6,7 @@
     public void SortColors(int[] nums)
     {
 
-        // at the start it should look like this
+        // at the start it should look something like this
         // [........][.......][.....]
         //  0                       n
         //  ^                       ^
@@ -24,6 +24,7 @@
             {
                 case 0:
                     {
+                        // value at the current mid 'pointer' should clearly be in low range
                         // Okay, let's swap values at current middle 'pointer' and low 'pointer' and push them both to the right
                         Swap(nums, mid, low);
                         mid++;
@@ -31,11 +32,12 @@
                         break;
                     }
                 case 1:
-                    // everything is alright, let's keep going
+                    // everything is as it should be, let's keep going
                     mid++;
                     break;
                 case 2:
                     {
+                        // value at the current mid 'pointer' should clearly be in high range
                         // Let's swap values at the high 'pointer' and middle 'pointer', and increment our 'high' range
                         Swap(nums, mid, high);
                         high--;

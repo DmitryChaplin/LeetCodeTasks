@@ -7,9 +7,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Common", "Common\Common.csp
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "148 Sort List", "148 Sort List\148 Sort List.csproj", "{D4F35C01-91E5-4C6E-A424-E5A3A5997115}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1 Two Sum", "1 Two Sum\1 Two Sum.csproj", "{BFFE6676-16CF-442D-9522-D0CB7B167B80}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "1 Two Sum", "1 Two Sum\1 Two Sum.csproj", "{BFFE6676-16CF-442D-9522-D0CB7B167B80}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "75 Sort Colors", "75 Sort Colors\75 Sort Colors.csproj", "{FB99D93B-263F-4E4D-9086-6EC0436DE87F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "75 Sort Colors", "75 Sort Colors\75 Sort Colors.csproj", "{FB99D93B-263F-4E4D-9086-6EC0436DE87F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "15 3Sum", "15 3Sum\15 3Sum.csproj", "{F79414C5-D583-4616-B2FA-4CAED0C133D6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{FB99D93B-263F-4E4D-9086-6EC0436DE87F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FB99D93B-263F-4E4D-9086-6EC0436DE87F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FB99D93B-263F-4E4D-9086-6EC0436DE87F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F79414C5-D583-4616-B2FA-4CAED0C133D6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F79414C5-D583-4616-B2FA-4CAED0C133D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F79414C5-D583-4616-B2FA-4CAED0C133D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F79414C5-D583-4616-B2FA-4CAED0C133D6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
