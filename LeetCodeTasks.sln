@@ -11,13 +11,17 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "1 Two Sum", "1 Two Sum\1 Tw
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "75 Sort Colors", "75 Sort Colors\75 Sort Colors.csproj", "{FB99D93B-263F-4E4D-9086-6EC0436DE87F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "15 3Sum", "15 3Sum\15 3Sum.csproj", "{F79414C5-D583-4616-B2FA-4CAED0C133D6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "15 3Sum", "15 3Sum\15 3Sum.csproj", "{F79414C5-D583-4616-B2FA-4CAED0C133D6}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "95 Unique Binary Search Trees II", "95 Unique Binary Search Trees II\95 Unique Binary Search Trees II.csproj", "{5D1C6240-DCD5-42AE-AEE3-351A6E3210BD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "94 Binary Tree Inorder Traversal", "94 Binary Tree Inorder Traversal\94 Binary Tree Inorder Traversal.csproj", "{1650E42E-E742-479B-8C9B-54D266E6CA75}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "94 Binary Tree Inorder Traversal", "94 Binary Tree Inorder Traversal\94 Binary Tree Inorder Traversal.csproj", "{1650E42E-E742-479B-8C9B-54D266E6CA75}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1046 Last Stone Weight", "1046 Last Stone Weight\1046 Last Stone Weight.csproj", "{775BFA47-5CF0-441F-96A2-FED136F1152B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "1046 Last Stone Weight", "1046 Last Stone Weight\1046 Last Stone Weight.csproj", "{775BFA47-5CF0-441F-96A2-FED136F1152B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "628 Maximum Product of Three Numbers", "628 Maximum Product of Three Numbers\628 Maximum Product of Three Numbers.csproj", "{BBE7B2A0-64BC-479E-BC5D-E06F192F21B6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "152 Maximum Product Subarray", "152 Maximum Product Subarray\152 Maximum Product Subarray.csproj", "{06C87D11-8504-45E4-AA8C-228319D2A257}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -57,6 +61,14 @@ Global
 		{775BFA47-5CF0-441F-96A2-FED136F1152B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{775BFA47-5CF0-441F-96A2-FED136F1152B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{775BFA47-5CF0-441F-96A2-FED136F1152B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BBE7B2A0-64BC-479E-BC5D-E06F192F21B6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BBE7B2A0-64BC-479E-BC5D-E06F192F21B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BBE7B2A0-64BC-479E-BC5D-E06F192F21B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BBE7B2A0-64BC-479E-BC5D-E06F192F21B6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{06C87D11-8504-45E4-AA8C-228319D2A257}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{06C87D11-8504-45E4-AA8C-228319D2A257}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{06C87D11-8504-45E4-AA8C-228319D2A257}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{06C87D11-8504-45E4-AA8C-228319D2A257}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
