@@ -27,6 +27,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "54 Spiral Matrix", "54 Spir
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "59 Spiral Matrix II", "59 Spiral Matrix II\59 Spiral Matrix II.csproj", "{97E99F53-89C1-44AC-A74D-D37C871A3513}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "73 Set Matrix Zeroes", "73 Set Matrix Zeroes\73 Set Matrix Zeroes.csproj", "{4A2538E5-D223-41F0-BCFD-A10EEC6C4C01}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -81,6 +83,10 @@ Global
 		{97E99F53-89C1-44AC-A74D-D37C871A3513}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{97E99F53-89C1-44AC-A74D-D37C871A3513}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{97E99F53-89C1-44AC-A74D-D37C871A3513}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4A2538E5-D223-41F0-BCFD-A10EEC6C4C01}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4A2538E5-D223-41F0-BCFD-A10EEC6C4C01}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4A2538E5-D223-41F0-BCFD-A10EEC6C4C01}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4A2538E5-D223-41F0-BCFD-A10EEC6C4C01}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
