@@ -25,6 +25,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "152 Maximum Product Subarra
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "54 Spiral Matrix", "54 Spiral Matrix\54 Spiral Matrix.csproj", "{1D1E9590-DCF6-4937-A780-5378BBC4E973}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "59 Spiral Matrix II", "59 Spiral Matrix II\59 Spiral Matrix II.csproj", "{97E99F53-89C1-44AC-A74D-D37C871A3513}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -75,6 +77,10 @@ Global
 		{1D1E9590-DCF6-4937-A780-5378BBC4E973}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1D1E9590-DCF6-4937-A780-5378BBC4E973}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1D1E9590-DCF6-4937-A780-5378BBC4E973}.Release|Any CPU.Build.0 = Release|Any CPU
+		{97E99F53-89C1-44AC-A74D-D37C871A3513}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{97E99F53-89C1-44AC-A74D-D37C871A3513}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{97E99F53-89C1-44AC-A74D-D37C871A3513}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{97E99F53-89C1-44AC-A74D-D37C871A3513}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
