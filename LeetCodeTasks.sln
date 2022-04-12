@@ -23,11 +23,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "628 Maximum Product of Thre
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "152 Maximum Product Subarray", "152 Maximum Product Subarray\152 Maximum Product Subarray.csproj", "{06C87D11-8504-45E4-AA8C-228319D2A257}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "54 Spiral Matrix", "54 Spiral Matrix\54 Spiral Matrix.csproj", "{1D1E9590-DCF6-4937-A780-5378BBC4E973}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "54 Spiral Matrix", "54 Spiral Matrix\54 Spiral Matrix.csproj", "{1D1E9590-DCF6-4937-A780-5378BBC4E973}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "59 Spiral Matrix II", "59 Spiral Matrix II\59 Spiral Matrix II.csproj", "{97E99F53-89C1-44AC-A74D-D37C871A3513}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "59 Spiral Matrix II", "59 Spiral Matrix II\59 Spiral Matrix II.csproj", "{97E99F53-89C1-44AC-A74D-D37C871A3513}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "73 Set Matrix Zeroes", "73 Set Matrix Zeroes\73 Set Matrix Zeroes.csproj", "{4A2538E5-D223-41F0-BCFD-A10EEC6C4C01}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "73 Set Matrix Zeroes", "73 Set Matrix Zeroes\73 Set Matrix Zeroes.csproj", "{4A2538E5-D223-41F0-BCFD-A10EEC6C4C01}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "289 Game of Life", "289 Game of Life\289 Game of Life.csproj", "{14C8E319-74B8-4BC5-88F5-254658243E1F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -87,6 +89,10 @@ Global
 		{4A2538E5-D223-41F0-BCFD-A10EEC6C4C01}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4A2538E5-D223-41F0-BCFD-A10EEC6C4C01}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4A2538E5-D223-41F0-BCFD-A10EEC6C4C01}.Release|Any CPU.Build.0 = Release|Any CPU
+		{14C8E319-74B8-4BC5-88F5-254658243E1F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{14C8E319-74B8-4BC5-88F5-254658243E1F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{14C8E319-74B8-4BC5-88F5-254658243E1F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{14C8E319-74B8-4BC5-88F5-254658243E1F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
