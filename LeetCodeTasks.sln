@@ -13,8 +13,6 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "75 Sort Colors", "75 Sort C
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "15 3Sum", "15 3Sum\15 3Sum.csproj", "{F79414C5-D583-4616-B2FA-4CAED0C133D6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "95 Unique Binary Search Trees II", "95 Unique Binary Search Trees II\95 Unique Binary Search Trees II.csproj", "{5D1C6240-DCD5-42AE-AEE3-351A6E3210BD}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "94 Binary Tree Inorder Traversal", "94 Binary Tree Inorder Traversal\94 Binary Tree Inorder Traversal.csproj", "{1650E42E-E742-479B-8C9B-54D266E6CA75}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "1046 Last Stone Weight", "1046 Last Stone Weight\1046 Last Stone Weight.csproj", "{775BFA47-5CF0-441F-96A2-FED136F1152B}"
@@ -29,11 +27,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "59 Spiral Matrix II", "59 S
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "73 Set Matrix Zeroes", "73 Set Matrix Zeroes\73 Set Matrix Zeroes.csproj", "{4A2538E5-D223-41F0-BCFD-A10EEC6C4C01}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "289 Game of Life", "289 Game of Life\289 Game of Life.csproj", "{14C8E319-74B8-4BC5-88F5-254658243E1F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "289 Game of Life", "289 Game of Life\289 Game of Life.csproj", "{14C8E319-74B8-4BC5-88F5-254658243E1F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "74 Search a 2D Matrix", "74 Search a 2D Matrix\74 Search a 2D Matrix.csproj", "{819779CB-F7B0-4C1E-9277-2D3D6BEB3A83}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "74 Search a 2D Matrix", "74 Search a 2D Matrix\74 Search a 2D Matrix.csproj", "{819779CB-F7B0-4C1E-9277-2D3D6BEB3A83}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "133 Clone Graph", "133 Clone Graph\133 Clone Graph.csproj", "{B3862EB5-B30C-4AD8-97B0-3969C592081F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "133 Clone Graph", "133 Clone Graph\133 Clone Graph.csproj", "{B3862EB5-B30C-4AD8-97B0-3969C592081F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "5 Longest Palindromic Substring", "5 Longest Palindromic Substring\5 Longest Palindromic Substring.csproj", "{1490F5FF-D82C-46F2-A75C-3212F92C81E3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -61,10 +61,6 @@ Global
 		{F79414C5-D583-4616-B2FA-4CAED0C133D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F79414C5-D583-4616-B2FA-4CAED0C133D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F79414C5-D583-4616-B2FA-4CAED0C133D6}.Release|Any CPU.Build.0 = Release|Any CPU
-		{5D1C6240-DCD5-42AE-AEE3-351A6E3210BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{5D1C6240-DCD5-42AE-AEE3-351A6E3210BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{5D1C6240-DCD5-42AE-AEE3-351A6E3210BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{5D1C6240-DCD5-42AE-AEE3-351A6E3210BD}.Release|Any CPU.Build.0 = Release|Any CPU
 		{1650E42E-E742-479B-8C9B-54D266E6CA75}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{1650E42E-E742-479B-8C9B-54D266E6CA75}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1650E42E-E742-479B-8C9B-54D266E6CA75}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -105,6 +101,10 @@ Global
 		{B3862EB5-B30C-4AD8-97B0-3969C592081F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B3862EB5-B30C-4AD8-97B0-3969C592081F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B3862EB5-B30C-4AD8-97B0-3969C592081F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1490F5FF-D82C-46F2-A75C-3212F92C81E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1490F5FF-D82C-46F2-A75C-3212F92C81E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1490F5FF-D82C-46F2-A75C-3212F92C81E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1490F5FF-D82C-46F2-A75C-3212F92C81E3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

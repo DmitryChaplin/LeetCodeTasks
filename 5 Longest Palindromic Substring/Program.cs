@@ -1,0 +1,1 @@
+﻿new Solution().LongestPalindrome("ccc");
