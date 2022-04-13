@@ -41,6 +41,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "200 Number of Islands", "20
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "147 Insertion Sort List", "147 Insertion Sort List\147 Insertion Sort List.csproj", "{027F5DDE-36D3-4342-A37F-C7B82931A019}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "179 Largest Number", "179 Largest Number\179 Largest Number.csproj", "{0F1C9083-26C0-44EA-8E7C-800E7B325F67}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -123,6 +125,10 @@ Global
 		{027F5DDE-36D3-4342-A37F-C7B82931A019}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{027F5DDE-36D3-4342-A37F-C7B82931A019}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{027F5DDE-36D3-4342-A37F-C7B82931A019}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0F1C9083-26C0-44EA-8E7C-800E7B325F67}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F1C9083-26C0-44EA-8E7C-800E7B325F67}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F1C9083-26C0-44EA-8E7C-800E7B325F67}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F1C9083-26C0-44EA-8E7C-800E7B325F67}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
