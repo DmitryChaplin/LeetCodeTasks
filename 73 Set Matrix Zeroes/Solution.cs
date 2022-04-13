@@ -6,10 +6,12 @@
         int rowsNum = matrix.Length;
         int colsNum = matrix[0].Length;
        
+        // the whole idea here is to use first row and first col to flag if the row or col should be zero'd.
+
         // iterate through the second row..n and flag everything
         for (int row = 0; row < rowsNum ; row++)
         {
-            // if we have any 0's in the first row/first cell of column, we need to set the flag to 0 the first row
+            // if we have any 0's in the first column of any row, we need to set the flag, to 0 the first col
             if (matrix[row][0] == 0)
                 wipeTheFirstCol = true;
 
@@ -22,7 +24,7 @@
                 };            
         }
 
-        // let's iterate again, checking the flags, excluding the first row and the first column, since we used them for flags
+        // let's iterate again, checking the flags, but excluding the first row and the first column from our wrath, since we used them for flags
         for (int row = 1; row < rowsNum; row++)
             for (int col = 1; col < colsNum; col++)
                 // check if row / col is flagged for 0
@@ -34,7 +36,6 @@
             for (int cell = 0; cell < colsNum; cell++)
                 matrix[0][cell] = 0;
 
-        // we might still have 'leftover' 0's in the first row that we need to act upon
         // check if we need to 0 the first column
         if (wipeTheFirstCol)
             for (int row = 0; row < rowsNum; row++)

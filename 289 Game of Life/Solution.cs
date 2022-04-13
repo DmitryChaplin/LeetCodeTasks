@@ -10,6 +10,9 @@
         var rowsNum = board.Length;
         var colsNum = board[0].Length;
 
+        // the whole idea is to flag cells that should 'die' or 'ressurect' with different values than 0 and 1
+        // and then go through the array again and swap them to respective 1's and 0's.
+
         for (int row = 0; row < rowsNum; row++)
             for (int col = 0; col < colsNum; col++)
             {
@@ -33,6 +36,10 @@
                         : board[row][col];
     }
 
+
+    // [NW][N][NE]
+    // [W] [x] [E]
+    // [SW][S][SE]
     int GetNumberOfAliveNeighbors(int[][] board, int row, int col, int rowsNum, int colsNum)
     {
         var counter = 0;

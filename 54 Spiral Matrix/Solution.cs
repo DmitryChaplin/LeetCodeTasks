@@ -8,6 +8,7 @@
         var rowEnd = matrix.Length - 1;
         var colEnd = matrix[0].Length - 1;
 
+        // let's spiral, until we reach the endRow / endCol
         while (rowBegin <= rowEnd && colBegin <= colEnd)
         {
             // Traverse right

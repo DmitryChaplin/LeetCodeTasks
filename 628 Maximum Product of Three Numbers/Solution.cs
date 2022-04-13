@@ -9,6 +9,10 @@
                 return 0;
             }
 
+            // the whole idea here is that we can only have either max_value * (2 biggest negative values)
+            // or max_value * next_max_value * next_max_value_after_that
+            // let's iterate through array, find them and return the biggest produce 
+
             var min1 = int.MaxValue;
             var min2 = int.MaxValue;
 
