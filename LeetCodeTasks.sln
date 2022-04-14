@@ -35,15 +35,17 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "133 Clone Graph", "133 Clon
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "5 Longest Palindromic Substring", "5 Longest Palindromic Substring\5 Longest Palindromic Substring.csproj", "{1490F5FF-D82C-46F2-A75C-3212F92C81E3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "105 Construct Binary Tree from Preorder and Inorder Traversal", "105 Construct Binary Tree from Preorder and Inorder Traversal\105 Construct Binary Tree from Preorder and Inorder Traversal.csproj", "{35D30247-0ED0-48DB-8471-131E0E805E0B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "105 Construct Binary Tree from Preorder and Inorder Traversal", "105 Construct Binary Tree from Preorder and Inorder Traversal\105 Construct Binary Tree from Preorder and Inorder Traversal.csproj", "{35D30247-0ED0-48DB-8471-131E0E805E0B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "200 Number of Islands", "200 Number of Islands\200 Number of Islands.csproj", "{688B0A3A-7F05-4D11-B9B4-9C68DDB6169E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "200 Number of Islands", "200 Number of Islands\200 Number of Islands.csproj", "{688B0A3A-7F05-4D11-B9B4-9C68DDB6169E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "147 Insertion Sort List", "147 Insertion Sort List\147 Insertion Sort List.csproj", "{027F5DDE-36D3-4342-A37F-C7B82931A019}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "147 Insertion Sort List", "147 Insertion Sort List\147 Insertion Sort List.csproj", "{027F5DDE-36D3-4342-A37F-C7B82931A019}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "179 Largest Number", "179 Largest Number\179 Largest Number.csproj", "{0F1C9083-26C0-44EA-8E7C-800E7B325F67}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "179 Largest Number", "179 Largest Number\179 Largest Number.csproj", "{0F1C9083-26C0-44EA-8E7C-800E7B325F67}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "215 Kth Largest Element in an Array", "215 Kth Largest Element in an Array\215 Kth Largest Element in an Array.csproj", "{C54EED6B-85C1-422C-AEB7-CA50D9D26AED}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "215 Kth Largest Element in an Array", "215 Kth Largest Element in an Array\215 Kth Largest Element in an Array.csproj", "{C54EED6B-85C1-422C-AEB7-CA50D9D26AED}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "199 Binary Tree Right Side View", "199 Binary Tree Right Side View\199 Binary Tree Right Side View.csproj", "{F176E0FA-8EF4-4F43-B791-555491381069}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -135,6 +137,10 @@ Global
 		{C54EED6B-85C1-422C-AEB7-CA50D9D26AED}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C54EED6B-85C1-422C-AEB7-CA50D9D26AED}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C54EED6B-85C1-422C-AEB7-CA50D9D26AED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F176E0FA-8EF4-4F43-B791-555491381069}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F176E0FA-8EF4-4F43-B791-555491381069}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F176E0FA-8EF4-4F43-B791-555491381069}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F176E0FA-8EF4-4F43-B791-555491381069}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
